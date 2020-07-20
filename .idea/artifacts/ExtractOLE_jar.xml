@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExtractOLE:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExtractOLE_jar</output-path>
+    <root id="archive" name="ExtractOLE.jar">
+      <element id="module-output" name="ExtractOLE" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/Developer/Libraries/Spire.Office_3.7.3/lib/Spire.Office.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
