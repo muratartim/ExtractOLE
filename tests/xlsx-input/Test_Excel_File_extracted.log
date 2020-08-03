@@ -1,0 +1,10 @@
+Aug 03, 2020 4:21:42 PM com.martim.Main main
+INFO: Processing input file: Test_Excel_File.xlsx
+Aug 03, 2020 4:21:46 PM com.martim.ExcelExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Excel_File_extracted_1.pdf
+Aug 03, 2020 4:21:46 PM com.martim.ExcelExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Excel_File_extracted_2.docx
+Aug 03, 2020 4:21:46 PM com.martim.ExcelExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Excel_File_extracted_3.pptx
+Aug 03, 2020 4:21:46 PM com.martim.ExcelExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Excel_File_extracted_4.xlsx

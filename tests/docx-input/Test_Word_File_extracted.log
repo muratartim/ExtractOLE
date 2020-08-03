@@ -1,0 +1,10 @@
+Aug 03, 2020 4:23:56 PM com.martim.Main main
+INFO: Processing input file: Test_Word_File.docx
+Aug 03, 2020 4:23:59 PM com.martim.WordExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Word_File_extracted_1.xlsx
+Aug 03, 2020 4:23:59 PM com.martim.WordExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Word_File_extracted_2.pdf
+Aug 03, 2020 4:23:59 PM com.martim.WordExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Word_File_extracted_3.docx
+Aug 03, 2020 4:23:59 PM com.martim.WordExtractor extractOLEObjects
+INFO: Extracted embedded object: Test_Word_File_extracted_4.pptx
