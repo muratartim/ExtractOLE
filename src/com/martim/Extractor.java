@@ -1,6 +1,5 @@
 package com.martim;
 
-import javax.activation.UnsupportedDataTypeException;
 import java.io.*;
 import java.nio.file.Path;
 

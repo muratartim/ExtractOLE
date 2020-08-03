@@ -1,6 +1,5 @@
 package com.martim;
 
-import javax.activation.UnsupportedDataTypeException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -105,12 +104,12 @@ public class Main {
      *
      * @param source Path to input file.
      * @return Newly created extractor.
-     * @throws UnsupportedDataTypeException If unsupported input data type is passed.
+     * @throws IllegalArgumentException If unsupported input data type is passed.
      */
-    private static Extractor createExtractor(Path source) throws UnsupportedDataTypeException {
+    private static Extractor createExtractor(Path source) throws IllegalArgumentException {
         String ext = getFileExtension(source.getFileName().toString());
         if (ext == null) {
-            throw new UnsupportedDataTypeException("Unsupported input file type: null. Please provide .docx or .xlsx input files.");
+            throw new IllegalArgumentException("Unsupported input file type: null. Please provide .docx or .xlsx input files.");
         }
         switch (ext) {
             case ".docx":
@@ -118,7 +117,7 @@ public class Main {
             case ".xlsx":
                 return new ExcelExtractor();
             default:
-                throw new UnsupportedDataTypeException("Unsupported input file type: " + ext + ". Please provide .docx or .xlsx input files.");
+                throw new IllegalArgumentException("Unsupported input file type: " + ext + ". Please provide .docx or .xlsx input files.");
         }
     }
 }
